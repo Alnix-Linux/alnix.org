@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Deploy artifacts
+alnix.org.zip
+
+# Repo contents: packages and the generated database live on the build
+# server, not in git. Keep the directory layout with .gitkeep.
+repo/*/*
+!repo/*/.gitkeep
+
+# TLS material, should never be committed
+*.pem
+*.key

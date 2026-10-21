@@ -61,3 +61,7 @@ sudo bash alnix.sh deploy    # install the uploaded site and restart
 ```
 
 Production runs behind nginx (TLS, static files) with the app under gunicorn.
+
+## License
+
+[GPL-3.0](LICENSE).
